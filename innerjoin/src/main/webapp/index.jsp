@@ -10,7 +10,9 @@
 	<form action="login.ij">
 		<input type="text" name="memberId"> 아이디 <br>
 		<input type="password" name="memberPwd"> 비밀번호 <br>
-		
+		<div>
+			전경아
+		</div>
 		<button>로그인</button>
 	</form>
 </body>
