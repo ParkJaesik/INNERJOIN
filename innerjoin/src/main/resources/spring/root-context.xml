@@ -10,12 +10,11 @@
 	   destroy-method="close">
 	   
 	   <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
-	   <property name="url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
+	   <property name="url" value="jdbc:oracle:thin:@115.90.212.22:1521:xe"/>
 	   <property name="username" value="innerjoin"/>
 	   <property name="password" value="innerjoin"/>
 	   <property name="defaultAutoCommit" value="false"/>
 	</bean>
-	
 	
 	<!-- 마이바티스 SqlSession 등록하기 -->
 	<bean id="sqlSession" 

@@ -5,7 +5,7 @@ public class Member {
 	private String memberId;
 	private String memberPwd;
     private String memberName;
-    private char loginWay;
+    private String loginWay;
     private String memberModifyDate;
     private String memberEnrollDate;
     private int memberHostCount;
@@ -16,7 +16,7 @@ public class Member {
 	public Member() {
 		super();
 	}
-	public Member(String memberId, String memberPwd, String memberName, char loginWay, String memberModifyDate,
+	public Member(String memberId, String memberPwd, String memberName, String loginWay, String memberModifyDate,
 			String memberEnrollDate, int memberHostCount, int memberJoinCount, int memberReptCount,
 			String memberProPath, int memberStatusCode) {
 		super();
@@ -50,10 +50,10 @@ public class Member {
 	public void setMemberName(String memberName) {
 		this.memberName = memberName;
 	}
-	public char getLoginWay() {
+	public String getLoginWay() {
 		return loginWay;
 	}
-	public void setLoginWay(char loginWay) {
+	public void setLoginWay(String loginWay) {
 		this.loginWay = loginWay;
 	}
 	public String getMemberModifyDate() {
@@ -106,7 +106,7 @@ public class Member {
 				+ ", memberReptCount=" + memberReptCount + ", memberProPath=" + memberProPath + ", memberStatusCode="
 				+ memberStatusCode + "]";
 	}
-    
+	
     
 
 }
